@@ -29,3 +29,9 @@ uint16_t getRead(foto* f)
 	}
 	return f->read;
 }
+
+void setFoto(foto* f, uint8_t type)
+{
+	f->type = type; //imposto il tipo del transistor in modo da dargli uno 'scopo'
+}
+
