@@ -2,6 +2,11 @@
  * Foto.h
  * Componenti
  */
+#ifndef FOTO_H
+#define FOTO_H
+
+#endif //FOTO_H
+
 typedef struct foto
 {
 	uint8_t pin; //Numero del pin del transistor
