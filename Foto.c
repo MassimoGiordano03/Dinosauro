@@ -21,11 +21,11 @@ uint16_t getRead(foto* f)
 {
 	if(f->mode == true) //la lettura è analogica
 	{
-		f->read = analogRead(f->pin);
+		//f->read = analogRead(f->pin);
 	}
 	else //la lettura è digitale
 	{
-		f->read = digitalRead(f->pin);
+		//f->read = digitalRead(f->pin);
 	}
 	return f->read;
 }

@@ -2,6 +2,8 @@
  * Foto_Handler.c
  */
 #include "Foto_Handler.h"
+#include <stdlib.h>
+#include <stdint.h>
 
 foto_handler* init_fotoHandler(uint8_t numero)
 {
@@ -10,6 +12,7 @@ foto_handler* init_fotoHandler(uint8_t numero)
 	if(f == NULL) return NULL;
 
 	f->i = numero;
+	return f;
 }
 
 void role_fotoHandler(char ruolo)

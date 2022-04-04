@@ -4,10 +4,11 @@
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 
-#endif //KEYBOARD_H
+
 //#include <Arduino.h>
 #include <stdio.h>
-#include <keyboard.h>
+#include <stdint.h>
+//#include <keyboard.h>
 
 typedef struct keyboard
 {
@@ -17,3 +18,6 @@ typedef struct keyboard
 } keyboard;
 
 keyboard* initKeyboard(uint8_t pin, char bind);
+
+
+#endif //KEYBOARD_H

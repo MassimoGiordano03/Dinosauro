@@ -2,6 +2,10 @@
  * Keyboard.c
  */
 
+#include "Keyboard.h"
+#include <stdlib.h>
+#include <stdint.h>
+
 keyboard* initKeyboard(uint8_t pin, char bind)
 {
 	keyboard* k = (keyboard*)malloc(sizeof(keyboard));
@@ -9,9 +13,10 @@ keyboard* initKeyboard(uint8_t pin, char bind)
 	if(k == NULL) return NULL;
 
 	k->pin = pin;
-	pinMode(k->pin, INPUT_PULLUP);
+	//pinMode(k->pin, INPUT_PULLUP);
 
 	k->bind = bind;
+	return k;
 }
 
 void pressKey(keyboard* k)
@@ -20,7 +25,7 @@ void pressKey(keyboard* k)
 	 * Controllo se il tasto assegnato a un pin è la freccia in su o in giu
 	 * Premo il tasto corrispondente
 	 */
-	uint8_t key_state = digitalRead(k->pin);
+	/*uint8_t key_state = digitalRead(k->pin);
 	if(k->bind == 'U')
 	{
 		if(key_state == LOW)
@@ -49,5 +54,5 @@ void pressKey(keyboard* k)
 			Keyboard.set_key1(0);
 			Keyboard.send_now();
 		}
-	}
+	}*/
 }

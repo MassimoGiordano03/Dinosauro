@@ -7,6 +7,7 @@
 
 #endif //FOTO_HANDLER_H
 #include <stdio.h>
+#include <stdint.h>
 
 typedef struct foto_handler
 {
@@ -15,7 +16,7 @@ typedef struct foto_handler
 	//
 	//1-> Comunicare alla struttura quali sono i fototransistor con una funzione di init
 	//
-	char foto[i];
+	//char foto[i]; STA COSA NON SI PUO FARE
 
 } foto_handler;
 

@@ -11,7 +11,7 @@
 
 #define NUM_FOTO 4
 
-foto* f_dino = initFoto(0, true);
+/*foto* f_dino = initFoto(0, true);
 foto* f_cactus = initFoto(1, true);
 foto* f_air = initFoto(2, true);
-foto* f_wall = initFoto(3, true);
+foto* f_wall = initFoto(3, true);*/  //dichiara solo quando le usi
