@@ -4,7 +4,6 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#endif //GLOBAL_H
 #include "Foto.h"
 #include <stdio.h>
 //#include "Keyboard.h"
@@ -15,3 +14,5 @@
 foto* f_cactus = initFoto(1, true);
 foto* f_air = initFoto(2, true);
 foto* f_wall = initFoto(3, true);*/  //dichiara solo quando le usi
+
+#endif //GLOBAL_H

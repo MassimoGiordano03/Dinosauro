@@ -5,7 +5,6 @@
 #ifndef FOTO_HANDLER_H
 #define FOTO_HANDLER_H
 
-#endif //FOTO_HANDLER_H
 #include <stdio.h>
 #include <stdint.h>
 
@@ -30,3 +29,5 @@ void role_fotoHandler(char ruolo);
  * Riconoscere il ruolo che il fototransistor ha nel progetto
  * In base a quello assegnare un valore in una variabile che gli farà fare determinate azioni
  */
+
+#endif //FOTO_HANDLER_H
