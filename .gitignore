@@ -1,5 +1,6 @@
 main
 makefile
+.DS_Store
 
 # Created by https://www.toptal.com/developers/gitignore/api/emacs,c++,cmake
 # Edit at https://www.toptal.com/developers/gitignore?templates=emacs,c++,cmake
