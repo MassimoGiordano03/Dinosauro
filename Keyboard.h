@@ -5,7 +5,8 @@
 #define KEYBOARD_H
 
 #endif //KEYBOARD_H
-#include <Arduino.h>
+//#include <Arduino.h>
+#include <stdio.h>
 #include <keyboard.h>
 
 typedef struct keyboard

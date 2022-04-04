@@ -5,7 +5,9 @@
 #ifndef FOTO_H
 #define FOTO_H
 
-#endif //FOTO_H
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
 
 typedef struct foto
 {
@@ -30,3 +32,5 @@ void setFoto(foto* f, uint8_t type); //impostare il ruolo del fototransistor
  * -> type == 3 "Foto degli uccelli"
  * -> type == 4 "Foto dello sfondo"
  */
+
+#endif //FOTO_H

@@ -1,11 +1,12 @@
 /**
  * Global.c
  */
-#include "Global.h"
+// #include "Global.h"
 
-foto* f_dino = initFoto(A0, true);
-foto* f_cactus = initFoto(A1, true);
-foto* f_air = initFoto(A2, true);
-foto* f_wall = initFoto(A3, true);
+f_dino = initFoto(0, true);
+f_cactus = initFoto(1, true);
+f_air = initFoto(2, true);
+f_wall = initFoto(3, true);
+
 
 

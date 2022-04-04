@@ -6,7 +6,7 @@
 #define FOTO_HANDLER_H
 
 #endif //FOTO_HANDLER_H
-#include "Foto.h"
+#include <stdio.h>
 
 typedef struct foto_handler
 {
