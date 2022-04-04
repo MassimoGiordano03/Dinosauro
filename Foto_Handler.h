@@ -2,6 +2,10 @@
  * Foto_Handler.h
  * Gestore componenti
  */
+#ifndef FOTO_HANDLER_H
+#define FOTO_HANDLER_H
+
+#endif //FOTO_HANDLER_H
 #include "Foto.h"
 
 typedef struct foto_handler
