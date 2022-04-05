@@ -21,10 +21,7 @@ typedef struct foto
 
 } foto;
 
-foto* initFoto(uint8_t pin, bool mode); //inizializzazione struttura dati
-
-uint16_t getRead(foto* f); //ritorno lettura fototransistor
-
+uint16_t getRead(foto* f);
 void setFoto(foto* f, uint8_t type); //impostare il ruolo del fototransistor
 /**
  * -> type == 1 "Foto del dinosauro"
@@ -33,4 +30,4 @@ void setFoto(foto* f, uint8_t type); //impostare il ruolo del fototransistor
  * -> type == 4 "Foto dello sfondo"
  */
 
-#endif //FOTO_H
+#endif 

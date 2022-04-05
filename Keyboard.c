@@ -6,18 +6,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-keyboard* initKeyboard(uint8_t pin, char bind)
-{
-	keyboard* k = (keyboard*)malloc(sizeof(keyboard));
-
-	if(k == NULL) return NULL;
-
-	k->pin = pin;
-	//pinMode(k->pin, INPUT_PULLUP);
-
-	k->bind = bind;
-	return k;
-}
+/*
+Stesso discorso per la malloc vale qui
+*/
 
 void pressKey(keyboard* k)
 {

@@ -17,7 +17,4 @@ typedef struct keyboard
 
 } keyboard;
 
-keyboard* initKeyboard(uint8_t pin, char bind);
-
-
 #endif //KEYBOARD_H
